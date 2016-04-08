@@ -1,0 +1,14 @@
+﻿{
+    "frameworks": {
+        "portable45-net45+win8+wpa81": { }
+    },
+    "runtimes": {
+        "win": { },
+        "win-anycpu": { }
+    },
+    "dependencies": {
+        "Rx-Main": "2.3.0-beta2",
+        "ReactiveProperty": "2.6.2",
+        "Xamarin.Forms": "2.0.0.6482"
+    }
+}

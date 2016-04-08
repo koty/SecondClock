@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="secondclock.Main" 
+             xmlns:abstractions="clr-namespace:SVG.Forms.Plugin.Abstractions;assembly=SVG.Forms.Plugin.Abstractions.dll">
+  <ContentPage.Resources> 
+		<ResourceDictionary> 
+			<abstractions:SvgImage x:Key="digit1" SvgAssembly="{Binding SvgAssembly}" SvgPath="secondclock.Resources.1.svg" HeightRequest="100" WidthRequest="100" BackgroundColor="White" HorizontalOptions="Center" VerticalOptions="Center"/>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+  <StackLayout Orientation="Horizontal">
+			<ContentView BackgroundColor="Red" HeightRequest="100" WidthRequest="100" Content="{StaticResource digit1}"/>
+  </StackLayout>
+</ContentPage>
